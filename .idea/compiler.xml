@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="geoary-dao" />
         <module name="geoary-util" />
+        <module name="geoary-entity" />
+        <module name="geoary-dao" />
         <module name="geoary-service" />
         <module name="geoary-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="geoary-dao" target="1.8" />
+      <module name="geoary-entity" target="1.8" />
       <module name="geoary-service" target="1.8" />
       <module name="geoary-util" target="1.8" />
       <module name="geoary-web" target="1.8" />
@@ -23,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="geoary-dao" options="-parameters" />
+      <module name="geoary-entity" options="-parameters" />
       <module name="geoary-service" options="-parameters" />
       <module name="geoary-util" options="-parameters" />
       <module name="geoary-web" options="-parameters" />

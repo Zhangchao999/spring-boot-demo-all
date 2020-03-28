@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/geoary-dao/geoary-dao.iml" filepath="$PROJECT_DIR$/geoary-dao/geoary-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geoary-entity/geoary-entity.iml" filepath="$PROJECT_DIR$/geoary-entity/geoary-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/geoary-service/geoary-service.iml" filepath="$PROJECT_DIR$/geoary-service/geoary-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/geoary-util/geoary-util.iml" filepath="$PROJECT_DIR$/geoary-util/geoary-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/geoary-web/geoary-web.iml" filepath="$PROJECT_DIR$/geoary-web/geoary-web.iml" />

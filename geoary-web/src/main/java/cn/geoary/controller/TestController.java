@@ -2,14 +2,12 @@ package cn.geoary.controller;
 
 import cn.geoary.service.TestService;
 import cn.geoary.util.zookeeper.ZkApi;
-import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
-import org.apache.zookeeper.ZooKeeper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
@@ -20,6 +18,7 @@ public class TestController {
     private TestService testService;
 
     @Autowired
+    @Resource
     private ZkApi zkApi;
 
 

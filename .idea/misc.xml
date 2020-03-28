@@ -8,6 +8,14 @@
         <option value="$PROJECT_DIR$/geoary-util/pom.xml" />
         <option value="$PROJECT_DIR$/geoary-service/pom.xml" />
         <option value="$PROJECT_DIR$/geoary-web/pom.xml" />
+        <option value="$PROJECT_DIR$/geoary-entity/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredPathMasks">
+      <list>
+        <option value="*.idea" />
+        <option value="*.mvn" />
+        <option value="*.iml" />
       </list>
     </option>
   </component>
