@@ -17,7 +17,7 @@ import java.util.List;
 public class ZkApi {
     private static final Logger logger = LoggerFactory.getLogger(ZkApi.class);
 
-    @Autowired
+    @Autowired(required = false)
     @Qualifier(value = "zkClient")
     private ZooKeeper zkClient;
 

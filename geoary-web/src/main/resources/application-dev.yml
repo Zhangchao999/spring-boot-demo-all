@@ -1,10 +1,27 @@
+## zookeeper 配置
 zookeeper:
-  enable: true
+  enable: false
   address: 127.0.0.1:2181
   sessionTimeout: 5000
 
+## 日志配置
 logging:
   level:
     com:
       yinhai:
         util: debug
+
+## redis 配置
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 30000
+    jedis:
+      pool:
+        max-wait: -1
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+
